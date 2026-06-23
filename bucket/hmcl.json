@@ -1,5 +1,5 @@
 {
-    "version": "3.14.1",
+    "version": "3.15.1",
     "description": "Hello Minecraft! Launcher (HMCL) is a multi-functional, open-source, cross-platform Minecraft launcher.",
     "homepage": "https://hmcl.huangyuhui.net/",
     "license": "GPL-3.0-only",
@@ -9,8 +9,8 @@
             "java/oraclejdk"
         ]
     },
-    "url": "https://github.com/HMCL-dev/HMCL/releases/download/v3.14.1/HMCL-3.14.1.exe#/HMCL.exe",
-    "hash": "7416eecf41e7e0c3af9d5d00c9de3c02e6c2c42390ba0500bdc0c9cec2b875a7",
+    "url": "https://github.com/HMCL-dev/HMCL/releases/download/v3.15.1/HMCL-3.15.1.exe#/HMCL.exe",
+    "hash": "b06f6e047c6bd4e95291c228cb92328a75f89ed14856f68b76d178414bb663ff",
     "pre_install": [
         "if (!(Test-Path \"$dir\\hmcl.json\")) { New-Item -ItemType File \"$dir\\hmcl.json\" -Force | Out-Null }",
         "if (!(Test-Path \"$dir\\.minecraft\")) { New-Item -ItemType Directory \"$dir\\.minecraft\" -Force | Out-Null }"
